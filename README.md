@@ -1,4 +1,4 @@
-# Install Odoo in MacOS(Intel/aarm64) with Script
+# Install Odoo in MacOS(Intel/ARM64) with Script
 
 - This script is for installing Odoo in MacOS. It will install Odoo and its dependencies.
 - This script is tested on MacOS Sequoia 15.1.1.
@@ -14,7 +14,11 @@
 3. Run the script.
 
 ```bash
-sh odoo-install-mac.sh
+# make executable
+chmod +x odoo-install-mac.sh
+
+# excute script
+./odoo-install-mac.sh
 ```
 
 4. Follow the instructions.
